@@ -1,0 +1,12 @@
+- title: QML Documentation
+  pages:
+    - title: "QML"
+
+- title: Basics
+  pages:
+    - title: Hello World
+
+- title: Beyond The Basics
+  pages:
+    - title: Modules
+

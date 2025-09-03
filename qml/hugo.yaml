@@ -1,0 +1,53 @@
+theme: E25DX
+
+enableGitInfo: false
+
+defaultContentLanguage: zh
+
+languages:
+  zh:                         # 新增中文配置
+    weight: 1                 # 权重更低表示优先级更高
+    languageName: 简体中文
+    languageCode: zh-CN
+    contentDir: content/zh
+    title: 阿左
+    params:
+      description: 笔记
+
+# To omit the Google Analytics script, put a ~ in place of the G-XXXXXXXXXX below.
+services:
+  googleAnalytics:
+    ID: G-XXXXXXXXXX
+
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+    parser:
+      attribute:
+        block: true
+        title: true
+
+params:
+  project:
+    # To omit the startYear, put a ~ in its place.
+    startYear: 2022
+    presentYear: 2025
+    github:
+      repo: username/repo
+    themeColor:
+      light: '#ffffff'
+      dark: '#101010'
+
+  # 首页下方： Built by and copyright xxxx
+  author:
+    name: Name
+    url: https://github.com/username
+
+  home:
+    heading: 阿左笔记
+    headingSegment2: 
+    description: Description
+    getStartedPath: docs/
